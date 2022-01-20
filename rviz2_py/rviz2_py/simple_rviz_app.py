@@ -50,7 +50,7 @@ class MainWindow(QWidget):
         self.rviz_visualization_frame.load(rviz_config)
         
         # adding to layout
-        self.main_layout.addWidget(self.rviz_visualization_frame) # Uncomment this to show all of Rviz
+        # self.main_layout.addWidget(self.rviz_visualization_frame) # Uncomment this to show all of Rviz
         self.main_layout.addWidget(self.rviz_visualization_frame.getRenderPanel())            
         self.setLayout(self.main_layout)
         
