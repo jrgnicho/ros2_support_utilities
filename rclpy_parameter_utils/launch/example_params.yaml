@@ -1,0 +1,8 @@
+str_val: "some_val"
+double_val: 22.8
+int_val: 5
+str_list_val: ["foo", "bar", "3.1416", "9.81"]
+nested_param:
+  int_list_val: [8, 4, 12, 26]
+  another_nested_param:
+    double_val: 3.1416
